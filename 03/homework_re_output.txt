@@ -1,0 +1,39 @@
+Dates:
+* 01/02/2021
+* 12-25-2020
+* 2021.03.15
+* 2022/04/30
+* 2023.06.20
+* 2021.07.04
+* March 14, 2022
+* December 25, 2020
+
+Emails:
+* john.doe@example.com
+* jane_doe123@domain.org
+* support@service.net
+* info@company.co.uk
+* contact.us@my-website.com
+* weird.address+spam@gmail.com
+* quotes.included@funny.domain
+* this.one.with.periods@weird.co.in
+
+URLs:
+* http://example.com
+* https://secure.website.org
+* http://sub.domain.co
+* www.redirect.com
+* ftp://ftp.downloads.com
+* https://my.site.com/path/to/resource?param1=value1&param2=value2
+* http://www.files.net/files.zip
+* https://example.co.in/api/v1/resource
+* https://another-site.org/downloads?query=search#anchor
+
+Phones:
+* (123) 456-7890
+* +1-800-555-1234
+* 800.555.1234
+* 800-555-1234
+* 123.456.7890
+* +44 20 7946 0958
+* +91 98765 43210

@@ -1,0 +1,6 @@
+Pattern: //input[@id="text-input-what"]
+* tag=input, id=text-input-what, class=css-4pnak9 e1jgz0i3, text=None
+Pattern: //input[@id="text-input-where"]
+* tag=input, id=text-input-where, class=css-4pnak9 e1jgz0i3, text=None
+Pattern: //form[@id="jobsearch"]//button[@type="submit"]
+* tag=button, id=None, class=yosegi-InlineWhatWhere-primaryButton, text=Achar vagas
