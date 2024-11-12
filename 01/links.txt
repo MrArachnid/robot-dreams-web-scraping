@@ -1,0 +1,8 @@
+indeed.com/robots.txt
+yahoo.com/robots.txt
+
+Фреймворки
+~~~~~~~~~~
+beautiful soup
+selenium
+scrapy
