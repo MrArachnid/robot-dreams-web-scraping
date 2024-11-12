@@ -2,7 +2,6 @@ import requests
 import hashlib
 import os
 import json
-import inspect
 import re
 from pprint import pprint
 
@@ -16,10 +15,7 @@ def file_cache(func):
         cache_dir = os.path.join(os.path.dirname(__file__), 'cache')
         if not os.path.exists(cache_dir):
             os.makedirs(cache_dir)
-        cache_key_data = json.dumps([
-            inspect.currentframe().f_code.co_name,
-            args, kwargs
-        ], sort_keys=True)
+        cache_key_data = json.dumps([func.__name__, args, kwargs], sort_keys=True)
         filename = os.path.join(
             cache_dir,
             hashlib.md5(cache_key_data.encode('utf-8')).hexdigest()
