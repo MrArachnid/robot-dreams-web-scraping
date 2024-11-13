@@ -1,1 +1,35 @@
 https://github.com/robot-dreams-code/Web-Scraping
+
+lesson 1
+~~~~~~~~
+indeed.com/robots.txt
+yahoo.com/robots.txt
+
+beautiful soup
+selenium
+scrapy
+
+
+lesson 2
+~~~~~~~~
+Toggle JavaScript - Chrome extension
+
+
+lesson 3
+~~~~~~~~
+https://regex101.com/
+https://regexone.com/
+https://scrapinghub.github.io/xpath-playground/
+
+xml & xpath: ET.fromstring(xml).findall('xpath_expression')
+
+
+lesson 4
+~~~~~~~~
+lejobadequat.com/emplois
+jobs.marksandspencer.com/job-search?radius=
+
+
+lesson 5
+~~~~~~~~
+neon.tech - remote db
