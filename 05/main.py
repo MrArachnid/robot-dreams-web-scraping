@@ -43,13 +43,13 @@ def file_cache(func):
 @file_cache
 def get_content(url: str) -> str|None:
     response = requests.get(url)
-    return response.text if response.status_code == 200 else None
+    return response.text if response.ok else None
 
 
 @file_cache
 def post_content(url: str, payload: dict) -> dict|None:
     response = requests.post(url, json=payload)
-    return response.json() if response.status_code == 200 else None
+    return response.json() if response.ok else None
 
 
 def scrape_job_cards(url: str) -> StrPairList:
