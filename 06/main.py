@@ -35,7 +35,8 @@ def file_cache(func: callable) -> callable:
 
 @file_cache
 def get_html_content(url: str) -> str:
-    return requests.get(url).text
+    response = requests.get(url)
+    return response.text if response.ok else None
 
 
 def parse_front_page(url: str) -> list[dict]:
